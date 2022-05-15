@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Validador de cpf</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Validador de cpf</h1>
+        </header>
+
+        <div class="container">
+            <div class="cpf">
+                CPF
+            </div>
+            <div class="input">
+                <input id="cpf_digitado" type="text" placeholder="digite aqui seu cpf!">
+            </div>
+        </div>
+
+        <div class="botao">
+            <button onclick="validacao()">Validar</button>
+        </div>
+
+        <div class="resultado">
+            <div id="cpf_ok">
+                <p>Seu CPF está válido!</p>
+            </div>
+            <div id="cpf_invalido">
+                <p>CPF inválido!</p>
+            </div>
+        </div>
+
+    </main>
+    
+</body>
+</html>
