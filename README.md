@@ -1,6 +1,6 @@
 # Validador de cpf
 
-## Projeto para o programa hiring coders.
+## Projeto para o programa hiring coders
 
 ### Depois de ter entendido o cálculo para validar o cpf também ficou mais fácil para entender o código.
 
